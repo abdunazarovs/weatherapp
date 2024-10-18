@@ -40,7 +40,7 @@ function displayResult(weather) {
   dateEl.innerText = dateBuilder(now)
   mainDegEl.innerHTML = `${Math.round(weather.main.temp)}<span>˚c</span>`
   aboutEl.innerText = weather.weather[0].main
-  weatherEl.src = `images/${weather.weather[0].main}.svg`
+  weatherEl.src = `assets/images/${weather.weather[0].main}.svg`
   body.style.background = `linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),
   url('https://source.unsplash.com/1920x1280/?${weather.weather[0].main}')`
   averageEl.innerText = `${Math.round(weather.main.temp_min)}˚c / ${Math.round(
