@@ -54,15 +54,15 @@ function displayResult(weather) {
 function dateBuilder(d) {
   let months = [
     'Yanvar',
-    'Fevrak',
+    'Fevral',
     'Mart',
     'Aprel',
     'May',
     'Iyun',
     'Iyul',
     'Avgust',
-    'Sentabr',
-    'Oktiyabr',
+    'Sentyabr',
+    'Oktyabr',
     'Noyabr',
     'Dekabr',
   ]
